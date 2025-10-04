@@ -1,26 +1,18 @@
 {% extends "layouts/main.html" %}
 
-{% set pageName="Home" %}
+{% set pageName= "Prototype" %}
 
 {% block content %}
 
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-two-thirds">
 
-    {% include "govuk-prototype-kit/includes/homepage-top.njk" %}
-
-    <h1 class="govuk-heading-xl">
-      {{ serviceName }}
-    </h1>
-
+    <h1 class="govuk-heading-l">{{ pageName }}</h1>
+    
     <p>
-      <a href="/start">
-          Go to the start page
-      </a>
+      <a href="/new">Go to the start page</a>
     </p>
 
-
-    {% include "govuk-prototype-kit/includes/homepage-bottom.njk" %}
   </div>
 </div>
 
